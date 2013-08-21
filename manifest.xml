@@ -8,13 +8,13 @@
           <Url>http://jamesbpollack.com</Url>
       </Extension>
 
-      <Extension id="subjectExtrator" type="contextExtractor">
+      <Extension id="sayHelloExtrator" type="contextExtractor">
           <Name>Say Hello</Name>
-          <Url>google.com:SubjectExtractor</Url>
+          <Url>google.com:SayHello</Url>
           <!--<Param name="subject" value=".*test.*"/>-->
           <Triggers ref="SayHello"/>
-          <!--<Scope ref="emailSubject"/>-->
-          <!--<Scope ref="emailBody"/>-->
+          <Scope ref="emailSubject"/>
+          <Scope ref="emailBody"/>
           <Container name="mail"/>
       </Extension>
 
@@ -25,13 +25,13 @@
           <Container name="mail"/>
       </Extension>
 
-      <!--<Scope id="emailSubject">
+      <Scope id="emailSubject">
           <Url>tag:google.com,2010:auth/contextual/extractor/SUBJECT</Url>
           <Reason>This application searches the Subject: line of each email for the text "test"</Reason>
-      </Scope>-->
+      </Scope>
 
-      <!--<Scope id="emailBody">
+      <Scope id="emailBody">
           <Url>tag:google.com,2010:auth/contextual/extractor/BODY</Url>
-          <Reason>This application searches the message body of each email for the text "Hello World."</Reason>
-      </Scope>-->
+          <Reason>This application searches the message body of each email for the text "test"</Reason>
+      </Scope>
 </ApplicationManifest>
