@@ -2,9 +2,9 @@
 <Module>
     <ModulePrefs title="SayHello" description="say hello" height="20" author="krispouille" author_email="..." author_location="France">
         <Require feature="dynamic-height" />
-        <Require feature="google.contentmatch">
+        <!--<Require feature="google.contentmatch">
             <Param name="extractors">google.com:SayHello</Param>
-        </Require>
+        </Require>-->
     </ModulePrefs>
 
     <Content type="html" view="card"><![CDATA[ 
