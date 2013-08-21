@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
-    <ModulePrefs title="SayHello" description="say hello" height="20" author="krispouille" author_email="..." author_location="France">
+    <ModulePrefs title="DoIt" description="just do it" height="20" author="krispouille" author_email="..." author_location="France">
         <Require feature="dynamic-height" />
         <Require feature="google.contentmatch">
             <Param name="extractors">google.com:SubjectExtractor</Param>
@@ -29,8 +29,7 @@
             };
 
             (window.DT = function(){
-                var v       = "1.10.1";
-                require('http://ajax.googleapis.com/ajax/libs/jquery/'+v+'/jquery.min.js', true/*window.jQuery===undefined || window.jQuery.fn.jquery < v*/, start);
+                require('http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', true/*window.jQuery===undefined || window.jQuery.fn.jquery < v*/, start);
                 function start() {
                     (function() {
                         alert('done');
