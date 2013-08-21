@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <ApplicationManifest xmlns="http://schemas.google.com/ApplicationManifest/2009">
     <!-- Name and description pulled from message bundles -->
-      <Name>Hello World</Name>
+      <Name>SayHello</Name>
       <Description>A simple application that show a HELLO</Description>
 
       <Extension id="subjectExtrator" type="contextExtractor">
           <Name>Say Hello</Name>
-          <!--<Url>google.com:SubjectExtractor</Url>-->
+          <Url>google.com:SubjectExtractor</Url>
           <!--<Param name="subject" value=".*test.*"/>-->
           <Triggers ref="SayHello"/>
           <!--<Scope ref="emailSubject"/>-->
