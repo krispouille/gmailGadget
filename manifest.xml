@@ -4,6 +4,10 @@
       <Name>SayHello</Name>
       <Description>A simple application that show a HELLO</Description>
 
+      <Extension id="realm" type="openIdRealm">
+          <Url>http://jamesbpollack.com</Url>
+      </Extension>
+
       <Extension id="subjectExtrator" type="contextExtractor">
           <Name>Say Hello</Name>
           <Url>google.com:SubjectExtractor</Url>
@@ -17,7 +21,7 @@
       <!-- gmail contextual gadget -->
       <Extension id="SayHello" type="gadget">
           <Name>Hello World Gmail contextual gadget</Name>
-          <Url>http://raw.github.com/krispouille/gmailGadget/master/spec.xml</Url>
+          <Url>https://raw.github.com/krispouille/gmailGadget/master/spec.xml</Url>
           <Container name="mail"/>
       </Extension>
 
