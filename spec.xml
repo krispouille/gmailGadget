@@ -27,7 +27,7 @@
                       callback();
                   }
               };
-              require('http://ajax.googleapis.com/ajax/libs/jquery/'+v+'/jquery.min.js', true, function(){
+              require('http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', true, function(){
                 alert(jQuery.fn.jquery);
               });
         </script>
