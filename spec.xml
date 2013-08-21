@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
-    <ModulePrefs title="SayHello" description="say hello" height="20" />
+    <ModulePrefs title="SayHello" description="say hello" height="20" author="krispouille" author_email="..." author_location="France">
+        <Require feature="dynamic-height" />
+    </ModulePrefs>
+
     <Content type="html" view="card">
         <![CDATA[ 
         Hello, world!
