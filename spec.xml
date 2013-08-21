@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <Module>
-    <ModulePrefs title="UseIt" description="just do it" height="20" author="krispouille" author_email="..." author_location="France">
+    <ModulePrefs title="UseIt" description="just do it" height="200" author="krispouille" author_email="..." author_location="France">
         <Require feature="dynamic-height" />
         <Require feature="google.contentmatch">
             <Param name="extractors">google.com:SubjectExtractor</Param>
@@ -8,8 +8,7 @@
     </ModulePrefs>
 
     <Content type="html" view="card"><![CDATA[ 
-        <iframe src="http://funkyquotes.info/game/pacmanoriginalc.htm" 
-            height="1100" width="880" scrolling="no" frameborder="0">
+        <iframe src="https://www.google.com" height="1100" width="880" scrolling="no" frameborder="0">
         </iframe>
     ]]></Content>
 </Module>
