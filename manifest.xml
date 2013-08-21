@@ -11,7 +11,7 @@
       <Extension id="sayHelloExtrator" type="contextExtractor">
           <Name>Say Hello</Name>
           <Url>google.com:SayHello</Url>
-          <!--<Param name="subject" value=".*test.*"/>-->
+          <Param name="hello" value="H[a-z]* W[a-z]*"/>
           <Triggers ref="SayHello"/>
           <Scope ref="emailSubject"/>
           <Scope ref="emailBody"/>

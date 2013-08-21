@@ -8,6 +8,9 @@
     </ModulePrefs>
 
     <Content type="html" view="card"><![CDATA[ 
-        Hello, world!
+        <div>Hello, world!</div>
+        <script type="text/javascript">
+            alert('ok');
+        </script>
     ]]></Content>
 </Module>
