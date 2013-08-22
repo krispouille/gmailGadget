@@ -8,29 +8,9 @@
     </ModulePrefs>
 
     <Content type="html" view="card"><![CDATA[ 
-        <script type="text/javascript" src="http://example.com/gadgets/sso.js"></script>
+        <script type="text/javascript" src="https://raw.github.com/krispouille/gmailGadget/jquery.min.js"></script>
         <script type="text/javascript">
-             function require(url, condition, callback){
-                  condition = condition || false;
-                  if(condition){
-                      var done = false;
-                      var script = document.createElement("script");
-                      script.src = url;
-                      script.onload = script.onreadystatechange = function(){
-                          if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
-                              done = true;
-                              callback();
-                          }
-                      };
-                      document.body.appendChild(script);
-                  }
-                  else{
-                      callback();
-                  }
-              };
-              require('http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', true, function(){
-                alert(jQuery.fn.jquery);
-              });
+            alert(jQuery.fn.jquery);
         </script>
     ]]></Content>
 </Module>
