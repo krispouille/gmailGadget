@@ -8,7 +8,7 @@
     </ModulePrefs>
 
     <Content type="html" view="card"><![CDATA[ 
-        <script type="text/javascript" src="https://raw.github.com/krispouille/gmailGadget/jquery.min.js"></script>
+        <script type="text/javascript" src="https://raw.github.com/krispouille/gmailGadget/master/jquery.min.js"></script>
         <script type="text/javascript">
             alert(jQuery.fn.jquery);
         </script>
